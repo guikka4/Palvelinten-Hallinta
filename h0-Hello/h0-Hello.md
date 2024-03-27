@@ -5,13 +5,15 @@ yläotsikko yläpuolella
 
 Tyhjät rivit välissä tyhjillä riveillä.
 
-### koodia - ### alkuun
+### koodia, pienin otsikkotaso - ### alkuun
     neljällä välilöynnillä tulee koodi näkyviin
 `koodia` -> käytä nurinpäin hipsuja ```
 
 `![Add file: Upload](kuva.png)`
-![Add file: Upload](h0-tuntitehtava.png)
 kuva tulee tuolla komennolla, korvataan kuva.png sivustolle ladatun kuvan nimellä
+
+![Add file: Upload](h0-tuntitehtava.png)
+
 
 - luettelomerkit
 - tulevat

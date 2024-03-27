@@ -10,8 +10,8 @@ Tyhjät rivit välissä tyhjillä riveillä.
 `koodia` -> käytä nurinpäin hipsuja ```
 
 `![Add file: Upload](kuva.png)`
-
-kuva tulee tuolla komennolla
+![Add file: Upload](h0-tuntitehtava.png)
+kuva tulee tuolla komennolla, korvataan kuva.png sivustolle ladatun kuvan nimellä
 
 - luettelomerkit
 - tulevat

@@ -65,7 +65,11 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 ### pkg (paketti)
 - `sudo salt-call --local -l info state.single pkg.installed tree`
 
+![Add file: Upload](h1-tree.png)
+
 Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, jolla voi näyttää hakemiston puumaisessa muodossa. Seuraavassa kuvassa komento `tree -d` hakemistossa `/etc` näyttää kansiot ko. polulla puumaisena rakenteena.
+
+![Add file: Upload](h1-tree-esim.png)
 
 
 

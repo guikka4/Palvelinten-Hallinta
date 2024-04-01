@@ -32,13 +32,26 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 - `ls C:\foo.txt` näyttää 27.3.2024 luennolla luodun foo.txt -tiedoston, joka löytyy C  hakemiston "juuresta"
 - `salt-call --local grains.item osfinger virtual` näyttää käytössä olevan koneeni käyttöjärjestelmän, sekä selvittää, onko käytössä fyysinen vai virtuaalinen systeemi.
 
-## Vagrantin asennus - Windowsia käyttäen 1.4.2024 17:30-
+## Vagrantin asennus - Windowsia käyttäen 1.4.2024 17:30-17:55
 - https://developer.hashicorp.com/vagrant/install -> Windowsille amd64 lataus. Asennus Wizardia käyttäen
 - Asennuksen jälkeen Wizard käskee käynnistämään uudelleen. Testimielessä koitan asentaa uuden virtuaalikoneen Vagrantia käyttäen, ennen boottausta.
 - Vagrantin komennot https://terokarvinen.com/2017/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/. Käytännössä nämä komennot ovat samat sekä Linuxilla, että Windowsilla.
 
-![Add file: Upload](
-- 
+![Add file: Upload](h1-ennen-vagrant.png)
+- Kuvassa VirtualBox ennen virtuaalikoneen asennusta
+
+- `vagrant init debian/bullseye64` -> Virtuaalikoneen "alustus"
+- `vagrant up` -> virtuaalikoneen asennus
+- `vagrant ssh` -> ssh yhteyden ottaminen uuteen virtuaalikoneeseen.
+
+![Add file: Upload]
+- Kuvassa alustus
+
+![Add file: Upload]
+- Kuvassa ssh yhteys
+
+![Add file: Upload]
+- Kuvassa uusi Vagrantilla luotu virtuaalikone näkyvissä Virtual Boxissa
 
 ### Lähteet
 - Karvinen, T. 2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/. Luettavissa 1.4.2024

@@ -77,13 +77,23 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 
 ### file (tiedosto)
 `sudo salt-call --local -l info state.single file.managed /tmp/heypasi`. Luodaan tiedosto tmp -kansioon. Filessä ei ole sisältöä
+
 ![Add file: Upload](h1-tiedosto.png)
 
 `sudo salt-call --local -l info state.single file.managed /tmp/moropasi contents="testausta"`. Luodaan tiedosto tmp -kansioon. Fileen tulee sisälle teksti "testausta". `cat /tmp/moropasi` tulostaa komentoriville tuon lisätyn tekstin.
+
 ![Add file: Upload](h1-tiedosto2.png)
 
 `sudo salt-call --local -l info state.single file.absent /tmp/heypasi`. Poistaa tiedoston "heypasi" /tmp hakemistosta
+
 ![Add file: Upload](h1-tiedosto-poisto.png)
+
+### service (palvelu)
+- `sudo salt-call --local -l info state.single service.running apache2 enable=True`
+- `sudo salt-call --local -l info state.single service.dead apache2 enable=False`
+- Komennot näyttävät, josko ylemmässä tapauksessa apache2 olisi käynnissä, alemmassa jos se olisi poissa käytöstä. Virtuaalikoneelleni ei ole asennettu apache2 demonia, joten tulos on tässä odotetunlainen, "The named service apache2 is not available". Jälkimmäisessä tämä on totta, jotenka tulos on "True"
+
+![Add file: Upload]
 
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024

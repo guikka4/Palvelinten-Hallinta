@@ -98,11 +98,15 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 ### user (käyttäjä)
 - `sudo salt-call --local -l info state.single user.present pasboi`. Luo käyttäjän pasboi, luo sille id:n, kotihakemiston, salasanan sekä käyttäjäryhmän (group).
 
-![Add file: Upload]
+![Add file: Upload](h1-user1.png)
 
-- `sudo salt-call --local -l info state.single user.absent pasboi`. Poistaa käyttäjän pasboi sekä siihen liittyvät hakemistot yms.
+- `sudo salt-call --local -l info state.single user.absent pasboi`. Poistaa käyttäjän ja ryhmän pasboi.
 
-![Add file: Upload]
+![Add file: Upload](h1-user2.png)
+
+- seuraavassa kuvassa todennettu seikka, eli vaikka käyttäjä sekä käyttäjäryhmä on poistettu, vaatii käyttäjän kotihakemiston poistaminen vielä erikseen toimia. Jos mietitään työelämän kannalta, niin yrityksen ylläpitäjän poistaessa turhia käyttäjiä olisi katastrofi, mikäli heidän hakemistonsakin (olettaen, että niistä löytyisi vaikka yritykselle tärkeitä tiedostoja) poistuisi samalla.
+
+![Add file: Upload](h1-user3.png)
 
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024

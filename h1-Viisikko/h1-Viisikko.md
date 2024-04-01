@@ -28,9 +28,9 @@ Viikkotehtävän kulku on tehdä tiivistelmät kolmesta artikkelista. Sen jälke
 ## Salt Windowsille - työskentely alkaa 1.4.2024 klo 16:55
 Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avulla asentaminen tapahtui osoitteesta https://docs.saltproject.io/salt/install-guide/en/latest/topics/downloads.html#windows. Käytän Windowsin PowerShelliä tämän todentamiseen.
 
-![Add file: Upload]
+![Add file: Upload](h1-salt-os.png)
 - `ls C:\foo.txt` näyttää 27.3.2024 luennolla luodun foo.txt -tiedoston, joka löytyy C  hakemiston "juuresta"
-- `salt-call --local grains.item.osfinger virtual` näyttää käytössä olevan koneeni käyttöjärjestelmän, sekä selvittää, onko käytössä fyysinen vai virtuaalinen systeemi.
+- `salt-call --local grains.item osfinger virtual` näyttää käytössä olevan koneeni käyttöjärjestelmän, sekä selvittää, onko käytössä fyysinen vai virtuaalinen systeemi.
 
 
 

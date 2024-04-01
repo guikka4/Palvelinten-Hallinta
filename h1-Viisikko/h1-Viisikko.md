@@ -50,7 +50,7 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 ![Add file: Upload](h1-vagrant-ssh.png)
 - Kuvassa ssh yhteys
 
-![Add file: Upload](h1-
+![Add file: Upload](h1-jalkeen-vagrant.png)
 - Kuvassa uusi Vagrantilla luotu virtuaalikone näkyvissä Virtual Boxissa
 
 ### Lähteet

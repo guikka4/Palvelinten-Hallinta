@@ -1,5 +1,5 @@
 # Viisikko
-Ensimmäinen viikkotehtävä alkaa kotioloissa 1.4.2024 noin klo 15:00. Käytössä on taloyhtiön ethernet buustattuna reippaalla nettinopeudella. HostOS:n (isäntäkone) virkaa suorittaa pari vuotta vanha pelikäyttöön tarkoitettu kannettava tietokone, josta löytyy tehoa, tarpeeksi, opiskelu sekä kevyeen pelikäyttöön.
+Ensimmäinen viikkotehtävä alkaa kotioloissa 1.4.2024 noin klo 15:00. Käytössä on taloyhtiön ethernet buustattuna reippaalla nettinopeudella. HostOS:n (isäntäkone) virkaa suorittaa pari vuotta vanha pelikäyttöön tarkoitettu kannettava tietokone, josta löytyy tehoa, tarpeeksi, opiskelu sekä kevyeen pelikäyttöön. Käyttöjärjestelmänä Windows 11 Home.
 
 Viikkotehtävän kulku on tehdä tiivistelmät kolmesta artikkelista. Sen jälkeen siirrytään itse suorittamiseen, jossa ensin asennellaan (tai todennetaan asennus) Salt Windowsille. Tämän jälkeen vuorossa on Vagrantin asennus sekä uuden virtuaalikoneen luonti Vagrantin avulla. Tälle koneelle asennetaan myös Salt, ja annetaan esimerkit viidestä tärkeimmästä tilafunktiosta. Viimeisinä toimina on antaa esimerkki idempotenssista sekä kerätä tietoja tietokoneesta. (Karvinen, T. 2024)
 
@@ -25,7 +25,12 @@ Viikkotehtävän kulku on tehdä tiivistelmät kolmesta artikkelista. Sen jälke
 - Plagiointi ei ole missään muodossa sallittua!
 - (Karvinen, T. 2006)
 
+## Salt Windowsille - työskentely alkaa 1.4.2024 klo 16:55
+Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avulla asentaminen tapahtui osoitteesta https://docs.saltproject.io/salt/install-guide/en/latest/topics/downloads.html#windows. Käytän Windowsin PowerShelliä tämän todentamiseen.
 
+![Add file: Upload]
+- `ls C:\foo.txt` näyttää 27.3.2024 luennolla luodun foo.txt -tiedoston, joka löytyy C  hakemiston "juuresta"
+- `salt-call --local grains.item.osfinger virtual` näyttää käytössä olevan koneeni käyttöjärjestelmän, sekä selvittää, onko käytössä fyysinen vai virtuaalinen systeemi.
 
 
 
@@ -34,3 +39,4 @@ Viikkotehtävän kulku on tehdä tiivistelmät kolmesta artikkelista. Sen jälke
 - Karvinen, T. 2021. Run Salt Commands Locally. https://terokarvinen.com/2021/salt-run-command-locally/. Luettavissa 1.4.2024
 - Karvinen, T. 2023. Create a Web Page Using Github. https://terokarvinen.com/2023/create-a-web-page-using-github/. Luetatvissa 1.4.2024
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h1-viisikko. Luettavissa 1.4.2024
+- Salt Project. https://docs.saltproject.io/salt/install-guide/en/latest/topics/downloads.html#windows. Luettavissa 1.4.2024

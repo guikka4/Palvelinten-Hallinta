@@ -61,7 +61,7 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 
 ![Add file: Upload](h1-salt-guestos.png)
 
-## Viisi tärkeintä - Salt:n tilafunktiot 1.4.2024 18:10- . Komennot https://terokarvinen.com/2021/salt-run-command-locally/
+## Viisi tärkeintä - Salt:n tilafunktiot 1.4.2024 18:10-19:12 . Komennot https://terokarvinen.com/2021/salt-run-command-locally/
 ### pkg (paketti)
 - `sudo salt-call --local -l info state.single pkg.installed tree`
 
@@ -113,7 +113,18 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 
 ![Add file: Upload](h1-cmd.png)
 
-## Idempotentti
+## Idempotenssi 1.4.2024 19:15-
+
+## Tietoja koneesta
+- `sudo salt-call --local grains.items | less`. Näytän sivu kerrallaan listan kaikista tiedoista, mitä koneesta voi kerätä
+  
+- `sudo salt-call --local grains.item saltpath`. Näyttää salt:n tiedostopolun
+- `sudo salt-call --local grains.item cpu_model`. Näyttää HostOS:n prosessorin tiedot. Kiintoisaa
+- `sudo salt-call --local grains.item virtual`. Näyttää virtuaalihostin eli VirtualBoxin tässä tapauksessa
+  
+![Add file: Upload]
+
+- `sudo salt-call --local grains.item saltpath cpu_model virtual`. Tiedot, jotka halutaan näkyviin, voi myös laittaa putkeen
 
 
 

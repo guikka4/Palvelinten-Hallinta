@@ -73,17 +73,17 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 
 - `sudo salt-call --local -l info state.single pkg.removed tree`. Komento poistaa asennetun "tree" paketin.
 
-![Add file: Upload]
+![Add file: Upload](h1-tree-poisto.png)
 
 ### file (tiedosto)
 `sudo salt-call --local -l info state.single file.managed /tmp/heypasi`. Luodaan tiedosto tmp -kansioon. Filessä ei ole sisältöä
-![Add file: Upload]
+![Add file: Upload](h1-tiedosto.png)
 
 `sudo salt-call --local -l info state.single file.managed /tmp/moropasi contents="testausta"`. Luodaan tiedosto tmp -kansioon. Fileen tulee sisälle teksti "testausta". `cat /tmp/moropasi` tulostaa komentoriville tuon lisätyn tekstin.
-![Add file: Upload]
+![Add file: Upload](h1-tiedosto2.png)
 
 `sudo salt-call --local -l info state.single file.absent /tmp/heypasi`. Poistaa tiedoston "heypasi" /tmp hakemistosta
-![Add file: Upload]
+![Add file: Upload](h1-tiedosto-poisto.png)
 
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024

@@ -96,7 +96,13 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 ![Add file: Upload](h1-service.png)
 
 ### user (käyttäjä)
-- 
+- `sudo salt-call --local -l info state.single user.present pasboi`. Luo käyttäjän pasboi, luo sille id:n, kotihakemiston, salasanan sekä käyttäjäryhmän (group).
+
+![Add file: Upload]
+
+- `sudo salt-call --local -l info state.single user.absent pasboi`. Poistaa käyttäjän pasboi sekä siihen liittyvät hakemistot yms.
+
+![Add file: Upload]
 
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024

@@ -111,7 +111,10 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 ### cmd (komento)
 - `sudo salt-call --local -l info state.single cmd.run 'touch /tmp/foo' creates="/tmp/foo"`. Ymmärrys loppuu hieman tässä kohdassa, mitä tämä tarkoittaa. Paitsi että tämä komento ajaa tiedoston " /tmp/foo"
 
-![Add file: Upload]
+![Add file: Upload](h1-cmd.png)
+
+## Idempotentti
+
 
 
 ### Lähteet

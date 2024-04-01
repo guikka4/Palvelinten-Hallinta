@@ -54,28 +54,39 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 ![Add file: Upload](h1-jalkeen-vagrant.png)
 - Kuvassa uusi Vagrantilla luotu virtuaalikone näkyvissä Virtual Boxissa
 
-## Salt:n asennus Linuxille - uudelle virtuaalikoneelleni 1.4.2024 18:00-18:10
+## Salt:n asennus Linuxille - uudelle virtuaalikoneelleni 1.4.2024 18:00-18:10.
 - `sudo apt-get update` -> päivitykset
 - `sudo apt-get -y install salt-minion` -> -y vastaa "yes" kaikkiin asennuksessa tuleviin kysymyksiin. Komento lataa salt:n.
 - `sudo salt-call --version` -> testi, että asennus toimi
 
 ![Add file: Upload](h1-salt-guestos.png)
 
-## Viisi tärkeintä - Salt:n tilafunktiot 1.4.2024 18:10-
+## Viisi tärkeintä - Salt:n tilafunktiot 1.4.2024 18:10- . Komennot https://terokarvinen.com/2021/salt-run-command-locally/
 ### pkg (paketti)
 - `sudo salt-call --local -l info state.single pkg.installed tree`
 
 ![Add file: Upload](h1-tree.png)
 
-Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, jolla voi näyttää hakemiston puumaisessa muodossa. Seuraavassa kuvassa komento `tree -d` hakemistossa `/etc` näyttää kansiot ko. polulla puumaisena rakenteena.
+Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, jolla voi näyttää hakemiston puumaisessa muodossa. Seuraavassa kuvassa komento `tree -d` hakemistossa `/etc` näyttää kansiot ko. polulla puumaisena rakenteena. (geeksforgeeks)
 
 ![Add file: Upload](h1-tree-esim.png)
 
+- `sudo salt-call --local -l info state.single pkg.removed tree`. Komento poistaa asennetun "tree" paketin.
 
+![Add file: Upload]
 
+### file (tiedosto)
+`sudo salt-call --local -l info state.single file.managed /tmp/heypasi`. Luodaan tiedosto tmp -kansioon. Filessä ei ole sisältöä
+![Add file: Upload]
 
+`sudo salt-call --local -l info state.single file.managed /tmp/moropasi contents="testausta"`. Luodaan tiedosto tmp -kansioon. Fileen tulee sisälle teksti "testausta". `cat /tmp/moropasi` tulostaa komentoriville tuon lisätyn tekstin.
+![Add file: Upload]
+
+`sudo salt-call --local -l info state.single file.absent /tmp/heypasi`. Poistaa tiedoston "heypasi" /tmp hakemistosta
+![Add file: Upload]
 
 ### Lähteet
+- GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024
 - Karvinen, T. 2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/. Luettavissa 1.4.2024
 - Karvinen, T. 2017. Vagrant Revisited - Install & Boot New Virtual Machine in 31 Seconds. https://terokarvinen.com/2017/vagrant-revisited-install-boot-new-virtual-machine-in-31-seconds/. Luettavissa 1.4.2024
 - Karvinen, T. 2021. Run Salt Commands Locally. https://terokarvinen.com/2021/salt-run-command-locally/. Luettavissa 1.4.2024

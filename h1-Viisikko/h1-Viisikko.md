@@ -113,16 +113,17 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 
 ![Add file: Upload](h1-cmd.png)
 
-## Idempotenssi 1.4.2024 19:15-
+## Idempotenssi 1.4.2024
+Olin turhan pihalla tähän raporttiversioon tekemään tätä osatehtävää. Palaan asiaan updaten kera.
 
-## Tietoja koneesta
+## Tietoja koneesta 19:20-19:45
 - `sudo salt-call --local grains.items | less`. Näytän sivu kerrallaan listan kaikista tiedoista, mitä koneesta voi kerätä
   
 - `sudo salt-call --local grains.item saltpath`. Näyttää salt:n tiedostopolun
 - `sudo salt-call --local grains.item cpu_model`. Näyttää HostOS:n prosessorin tiedot. Kiintoisaa
 - `sudo salt-call --local grains.item virtual`. Näyttää virtuaalihostin eli VirtualBoxin tässä tapauksessa
   
-![Add file: Upload]
+![Add file: Upload](h1-grains.png)
 
 - `sudo salt-call --local grains.item saltpath cpu_model virtual`. Tiedot, jotka halutaan näkyviin, voi myös laittaa putkeen
 

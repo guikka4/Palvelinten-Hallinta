@@ -44,13 +44,13 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 - `vagrant up` -> virtuaalikoneen asennus
 - `vagrant ssh` -> ssh yhteyden ottaminen uuteen virtuaalikoneeseen.
 
-![Add file: Upload]
+![Add file: Upload](h1-vagrant-init.png)
 - Kuvassa alustus
 
-![Add file: Upload]
+![Add file: Upload](h1-vagrant-ssh.png)
 - Kuvassa ssh yhteys
 
-![Add file: Upload]
+![Add file: Upload](h1-
 - Kuvassa uusi Vagrantilla luotu virtuaalikone näkyvissä Virtual Boxissa
 
 ### Lähteet

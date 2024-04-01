@@ -54,14 +54,22 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 ![Add file: Upload](h1-jalkeen-vagrant.png)
 - Kuvassa uusi Vagrantilla luotu virtuaalikone näkyvissä Virtual Boxissa
 
-## Salt:n asennus Linuxille - uudelle virtuaalikoneelleni
+## Salt:n asennus Linuxille - uudelle virtuaalikoneelleni 1.4.2024 18:00-18:10
 - `sudo apt-get update` -> päivitykset
 - `sudo apt-get -y install salt-minion` -> -y vastaa "yes" kaikkiin asennuksessa tuleviin kysymyksiin. Komento lataa salt:n.
 - `sudo salt-call --version` -> testi, että asennus toimi
 
 ![Add file: Upload](h1-salt-guestos.png)
 
-- 
+## Viisi tärkeintä - Salt:n tilafunktiot 1.4.2024 18:10-
+### pkg (paketti)
+- `sudo salt-call --local -l info state.single pkg.installed tree`
+
+Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, jolla voi näyttää hakemiston puumaisessa muodossa. Seuraavassa kuvassa komento `tree -d` hakemistossa `/etc` näyttää kansiot ko. polulla puumaisena rakenteena.
+
+
+
+
 
 ### Lähteet
 - Karvinen, T. 2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/. Luettavissa 1.4.2024

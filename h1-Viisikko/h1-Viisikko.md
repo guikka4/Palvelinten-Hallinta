@@ -93,7 +93,10 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 - `sudo salt-call --local -l info state.single service.dead apache2 enable=False`
 - Komennot näyttävät, josko ylemmässä tapauksessa apache2 olisi käynnissä, alemmassa jos se olisi poissa käytöstä. Virtuaalikoneelleni ei ole asennettu apache2 demonia, joten tulos on tässä odotetunlainen, "The named service apache2 is not available". Jälkimmäisessä tämä on totta, jotenka tulos on "True"
 
-![Add file: Upload]
+![Add file: Upload](h1-service.png)
+
+### user (käyttäjä)
+- 
 
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024

@@ -59,7 +59,9 @@ Salt:n asennus onnistui jo edellisellä luennolla. Saltin lataus ja wizardin avu
 - `sudo apt-get -y install salt-minion` -> -y vastaa "yes" kaikkiin asennuksessa tuleviin kysymyksiin. Komento lataa salt:n.
 - `sudo salt-call --version` -> testi, että asennus toimi
 
-![Add file: Upload]
+![Add file: Upload](h1-salt-guestos.png)
+
+- 
 
 ### Lähteet
 - Karvinen, T. 2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/. Luettavissa 1.4.2024

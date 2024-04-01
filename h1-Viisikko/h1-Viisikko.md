@@ -108,6 +108,12 @@ Komennolla asennettiin "tree" paketti, tai pikemmin ohjelma. Se on ohjelma, joll
 
 ![Add file: Upload](h1-user3.png)
 
+### cmd (komento)
+- `sudo salt-call --local -l info state.single cmd.run 'touch /tmp/foo' creates="/tmp/foo"`. Ymmärrys loppuu hieman tässä kohdassa, mitä tämä tarkoittaa. Paitsi että tämä komento ajaa tiedoston " /tmp/foo"
+
+![Add file: Upload]
+
+
 ### Lähteet
 - GeeksforGeeks. Tree command in Linux with examples. https://www.geeksforgeeks.org/tree-command-unixlinux/. Luettavissa 1.4.2024
 - Karvinen, T. 2006. Raportin kirjoittaminen. https://terokarvinen.com/2006/06/04/raportin-kirjoittaminen-4/. Luettavissa 1.4.2024

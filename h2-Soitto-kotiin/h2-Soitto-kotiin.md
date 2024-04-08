@@ -61,7 +61,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - `sudo apt-get -y install salt-minion` Slave (tai minion) asennus
 - `sudoedit /etc/salt/minion` lisätään masterin osoite sekä id tänne, jotta slave voi tunnistaa masterinsa verkossa
 
-![Add file: Upload]
+![Add file: Upload](kuvat/sudoedit2.png)
 
 - `sudo systemctl restart salt-minion.service` käynnistetään demoni uudelleen, jotta asetukset tulevat voimaan
 

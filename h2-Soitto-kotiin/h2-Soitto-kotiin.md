@@ -23,7 +23,12 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - (Karvinen, T. 2018)
 
 ### Hello Salt Infra-as-Code
-- 
+- Artikkelissa on ohje, kuinka moduuleita luodaan masterilla niin, että ne ovat ajettavissa kaikille orjille
+- Moduulit voivat sisältää erilaista saltin omaa koodia, riippuen, mitä halutaa ajettavaksi kaikille orjille
+- (Karvinen, T. 2024)
+
+## a) Kahden virtuaalikoneen asentaminen samaan verkkoon (Vagrantilla)
+
 
 ### Lähteet
 - Karvinen, T. 2018. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux. https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux. Luettavissa 8.4.2024

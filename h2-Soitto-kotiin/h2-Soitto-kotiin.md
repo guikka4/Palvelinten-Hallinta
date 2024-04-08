@@ -87,7 +87,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 ## c) Shell komento orjalla Saltin master-slave yhteyttä käyttäen
 Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
-## d) Idempotenttien ajo master-slaven yli 12:00-
+## d) Idempotenttien ajo master-slaven yli 12:00-12:30
 - komennon masterilla
 - `sudo salt '*' state.single pkg.installed tree`  kokeilin komentoa, jotta tarvittaessa asentaisi tree-paketin (jos sitä ei ole)
 - minion palutti, että se löytyy jo
@@ -114,10 +114,13 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 ![Add file: Upload](kuvat/testipoisto2.png)
 
-## e) Tietoja orjista verkon yli
+## e) Tietoja orjista verkon yli 8.4.2024 12:30-12:35
 - `sudo salt '*' grains.item cpu_model virtual osfinger master` näyttää orjilta prosessorimallin, virtuaalialustan, käyttöjärjestelmän sekä masterin
 
-![Add file: Upload]
+![Add file: Upload](kuvat/grains.png)
+
+## f) Hello, IaC. Infraa koodina
+
 
 
 ### Lähteet

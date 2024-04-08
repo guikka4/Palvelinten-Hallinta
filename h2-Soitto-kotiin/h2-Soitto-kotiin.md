@@ -27,7 +27,12 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - Moduulit voivat sisältää erilaista saltin omaa koodia, riippuen, mitä halutaa ajettavaksi kaikille orjille
 - (Karvinen, T. 2024)
 
-## a) Kahden virtuaalikoneen asentaminen samaan verkkoon (Vagrantilla)
+## a) Kahden virtuaalikoneen asentaminen samaan verkkoon (Vagrantilla) 8.4.2024 9:35-
+- Käytän tehtävän tekemiseen Windowsin (HostOS) powershelliä. Loin ensin oman käyttäjäni kotihakemistoon uuden "twohost" kansion komennolla `mkdir twohost`
+- twohost kansiossa `vagrant init debian/bullseye64` -> luo vagrant-tiedoston kansioon
+- kopion graafisessa käyttöliittymässä ohjeen tekstin (https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/) Vagrantfileen
+- `vagrant up` -> virtuaalikoneet käyntiin
+![Add file: Upload]
 
 
 ### Lähteet

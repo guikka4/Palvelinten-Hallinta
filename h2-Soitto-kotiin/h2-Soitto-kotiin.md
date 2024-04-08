@@ -42,9 +42,9 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - Kaikista tuli vastaus
 - `exit` komennolla pääsee SSH:sta pois
 
-![Add file: Upload]
+![Add file: Upload](kuvat/t001.png)
 
-![Add file: Upload] 
+![Add file: Upload](kuvat/t002.png)
 
 
 ### Lähteet

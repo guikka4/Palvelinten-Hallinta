@@ -65,6 +65,22 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 - `sudo systemctl restart salt-minion.service` käynnistetään demoni uudelleen, jotta asetukset tulevat voimaan
 
+- Tässä kohdassa tulee ensimmäiset ongelmat. Master-koneen `sudo salt-key -A` ei löydä avaimia hyväksyttäväksi. Kikkailin aikani ja ihmettelin, mistä johtuu. Muutos olikin sitten aika simppeli.
+
+![Add file: Update]
+
+- `hostname -I` antoin molemmissa virtuaalikoneissa, tietenkin, saman osoitteen eli aiemmin mainitun 10.0.2.15. Eihän kai minionia voi laittaa osoittamaan itseensä.
+- Takaisin minion koneen kimppuun
+- `sudoedit /etc/salt/minion` uudelleen. Vaihdoin master osoitteeksi 192.168.88.101, joka oltiin aiemmin luotu Vagrantfileen t001 koneen osoitteeksi.
+- Lopputulema antaa saman errorin, vaikka minionin käynnistää uudelleen.
+- `sudoedit /etc/salt/minion`. Poistin id-rivin kokonaan. Demonin uudelleen käynnistys
+
+- Master-koneen kimppuun
+- `sudo salt-key -A` ja Ta-daa! Nyt on hyväksymättömiä avaimia.
+
+![Add file: Update]
+
+
 ### Lähteet
 - Karvinen, T. 2018. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux. https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux. Luettavissa 8.4.2024
 - Karvinen, T. 2021. Two Machine Virtual Network With Debian 11 Bullseye and Vagrant. https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/. Luettavissa 8.4.2024

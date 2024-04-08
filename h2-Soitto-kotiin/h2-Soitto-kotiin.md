@@ -97,7 +97,7 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 - `sudo salt '*' state.single pkg.removed tree` kokeillaan sitten tree-paketin poistamista, jos se ei ole vielä poistettu
 - vastauksena ensin näkyy, että poistettu, uudelleen komentaessa vastaus on, että se on jo poistettu. Toimii!
 
-![Add file: Update](kuvat/tree-poisto.ong)
+![Add file: Update](kuvat/tree-poisto.png)
 
 - 
 

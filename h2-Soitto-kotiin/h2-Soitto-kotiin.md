@@ -52,7 +52,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - `vagrant ssh t001` ssh:lla t001 koneeseen sisään. Tästä tulee master
 - `sudo apt-get update` päivitykset, jotta asennukset onnistuvat
 - `sudo apt-get -y install salt-master` -> asennetaan masteri
-- `hostname -I` palauttaa *.*.*.*. Tätä tarvitaan kohta orjan kanssa
+- `hostname -I` palauttaa 10.0.2.15. Tätä tarvitaan kohta orjan kanssa
 - `exit` ssh:sta pois ja Slaven kimppuun
 - Tässä kohdassa ymmärsin, että molempia koneita, sekä masteria että minionia tarvitaan tehtävässä, joten avasin toisen powershell-ikkunan jotta sain molemmille ssh-yhteyden samaan aikaan
 
@@ -69,7 +69,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 ![Add file: Update](kuvat/key-error.png)
 
-- `hostname -I` antoin molemmissa virtuaalikoneissa, tietenkin, saman osoitteen eli aiemmin mainitun *.*.*.*. Eihän kai minionia voi laittaa osoittamaan itseensä.
+- `hostname -I` antoin molemmissa virtuaalikoneissa, tietenkin, saman osoitteen eli aiemmin mainitun 10.0.2.15. Eihän kai minionia voi laittaa osoittamaan itseensä.
 - Takaisin minion koneen kimppuun
 - `sudoedit /etc/salt/minion` uudelleen. Vaihdoin master osoitteeksi 192.168.88.101, joka oltiin aiemmin luotu Vagrantfileen t001 koneen osoitteeksi.
 - Lopputulema antaa saman errorin, vaikka minionin käynnistää uudelleen.

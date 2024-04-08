@@ -87,7 +87,19 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 ## c) Shell komento orjalla Saltin master-slave yhteyttä käyttäen
 Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
-## d)
+## d) Idempotenttien ajo master-slaven yli 12:00-
+- komennon masterilla
+- `sudo salt '*' state.single pkg.installed tree`  kokeilin komentoa, jotta tarvittaessa asentaisi tree-paketin (jos sitä ei ole)
+- minion palutti, että se löytyy jo
+
+![Add file: Update]
+
+- `sudo salt '*' state.single pkg.removed tree` kokeillaan sitten tree-paketin poistamista, jos se ei ole vielä poistettu
+- vastauksena ensin näkyy, että poistettu, uudelleen komentaessa vastaus on, että se on jo poistettu. Toimii!
+
+![Add file: Update]
+
+- 
 
 
 ### Lähteet

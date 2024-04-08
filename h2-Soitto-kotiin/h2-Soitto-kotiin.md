@@ -67,7 +67,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 - Tässä kohdassa tulee ensimmäiset ongelmat. Master-koneen `sudo salt-key -A` ei löydä avaimia hyväksyttäväksi. Kikkailin aikani ja ihmettelin, mistä johtuu. Muutos olikin sitten aika simppeli.
 
-![Add file: Update](kuvat/key-error.png)
+![Add file: Upload](kuvat/key-error.png)
 
 - `hostname -I` antoin molemmissa virtuaalikoneissa, tietenkin, saman osoitteen eli aiemmin mainitun 10.0.2.15. Eihän kai minionia voi laittaa osoittamaan itseensä.
 - Takaisin minion koneen kimppuun
@@ -78,7 +78,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - Master-koneen kimppuun
 - `sudo salt-key -A` ja Ta-daa! Nyt on hyväksymättömiä avaimia.
 
-![Add file: Update](kuvat/key-accepted.png)
+![Add file: Upload](kuvat/key-accepted.png)
 
 - Testasin vielä toimivuutta masterilla `sudo salt '*' cmd.run 'whoami'` komennolla. Yhteys orjaan toimii
 
@@ -92,14 +92,20 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 - `sudo salt '*' state.single pkg.installed tree`  kokeilin komentoa, jotta tarvittaessa asentaisi tree-paketin (jos sitä ei ole)
 - minion palutti, että se löytyy jo
 
-![Add file: Update](kuvat/tree-on.png)
+![Add file: Upload](kuvat/tree-on.png)
 
 - `sudo salt '*' state.single pkg.removed tree` kokeillaan sitten tree-paketin poistamista, jos se ei ole vielä poistettu
 - vastauksena ensin näkyy, että poistettu, uudelleen komentaessa vastaus on, että se on jo poistettu. Toimii!
 
-![Add file: Update](kuvat/tree-poisto.png)
+![Add file: Upload](kuvat/tree-poisto.png)
 
-- 
+- `sudo salt '*' state.single file.managed /tmp/testitiedosto contents="tuleeko testiteksti"` kokeillaan pari kertaa tätä komentoa. Luo `/tmp/` kansioon testitiedosto -nimisen tiedoston, jossa on teksti "tuleeko testiteksti". Uudelleen sama komento näyttää, että tiedosto on jo oikeassa tilassa. Toimii
+
+![Add file: Upload]
+
+- vaarmuuden vuoksi kävin minion koneella tsekkaamassa, että se toimi. Ja toimihan se
+
+![Add file: Upload]
 
 
 ### Lähteet

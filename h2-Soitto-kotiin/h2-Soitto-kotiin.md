@@ -49,7 +49,21 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 ## b) Herra-orja arkkitehtuuri verkon yli 8.4.2024 10:15-
 - Ohjeet https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux
-- 
+- `vagrant ssh t001` ssh:lla t001 koneeseen sisään. Tästä tulee master
+- `sudo apt-get update` päivitykset, jotta asennukset onnistuvat
+- `sudo apt-get -y install salt-master` -> asennetaan masteri
+- `hostname -I` palauttaa 10.0.2.15. Tätä tarvitaan kohta orjan kanssa
+- `exit` ssh:sta pois ja Slaven kimppuun
+- Tässä kohdassa ymmärsin, että molempia koneita, sekä masteria että minionia tarvitaan tehtävässä, joten avasin toisen powershell-ikkunan jotta sain molemmille ssh-yhteyden samaan aikaan
+
+- `vagrant ssh t002` ssh:lla t002 koneelle. Tästä tulee slave
+- `sudo apt-get update` päivitykset
+- `sudo apt-get -y install salt-minion` Slave (tai minion) asennus
+- `sudoedit /etc/salt/minion` lisätään masterin osoite sekä id tänne, jotta slave voi tunnistaa masterinsa verkossa
+
+![Add file: Upload]
+
+- `sudo systemctl restart salt-minion.service` käynnistetään demoni uudelleen, jotta asetukset tulevat voimaan
 
 ### Lähteet
 - Karvinen, T. 2018. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux. https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux. Luettavissa 8.4.2024

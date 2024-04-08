@@ -92,12 +92,12 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 - `sudo salt '*' state.single pkg.installed tree`  kokeilin komentoa, jotta tarvittaessa asentaisi tree-paketin (jos sitä ei ole)
 - minion palutti, että se löytyy jo
 
-![Add file: Update]
+![Add file: Update](kuvat/tree-on.png)
 
 - `sudo salt '*' state.single pkg.removed tree` kokeillaan sitten tree-paketin poistamista, jos se ei ole vielä poistettu
 - vastauksena ensin näkyy, että poistettu, uudelleen komentaessa vastaus on, että se on jo poistettu. Toimii!
 
-![Add file: Update]
+![Add file: Update](kuvat/tree-poisto.ong)
 
 - 
 

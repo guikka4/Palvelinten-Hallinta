@@ -107,7 +107,12 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 ![Add file: Upload](kuvat/testiteksti-toimi.png)
 
--
+- `sudo salt '*' state.single file.absent /tmp/testitiedosto` tiedoston poistaminen, jos sitä ei ole vielä poistettu (master-koneella)
+- alemmassa kuvassa näkyy minionilta, että tiedosto on poissa
+
+![Add file: Upload]
+
+![Add file: Upload]
 
 
 ### Lähteet

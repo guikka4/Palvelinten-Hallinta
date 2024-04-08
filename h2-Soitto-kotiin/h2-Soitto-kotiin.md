@@ -32,7 +32,10 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - twohost kansiossa `vagrant init debian/bullseye64` -> luo vagrant-tiedoston kansioon
 - kopion graafisessa käyttöliittymässä ohjeen tekstin (https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/) Vagrantfileen
 - `vagrant up` -> virtuaalikoneet käyntiin
+
 ![Add file: Upload](kuvat/vagrant-up.png)
+
+
 
 
 ### Lähteet

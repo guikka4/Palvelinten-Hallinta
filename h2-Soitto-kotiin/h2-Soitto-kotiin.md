@@ -47,7 +47,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 ![Add file: Upload](kuvat/t002.png)
 
-## b) Herra-orja arkkitehtuuri verkon yli 8.4.2024 10:15-
+## b) Herra-orja arkkitehtuuri verkon yli 8.4.2024 10:15-11:20
 - Ohjeet https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux
 - `vagrant ssh t001` ssh:lla t001 koneeseen sisään. Tästä tulee master
 - `sudo apt-get update` päivitykset, jotta asennukset onnistuvat
@@ -82,7 +82,12 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 - Testasin vielä toimivuutta masterilla `sudo salt '*' cmd.run 'whoami'` komennolla. Yhteys orjaan toimii
 
-![Add file: Upload]
+![Add file: Upload](kuvat/slavetest.png)
+
+## c) Shell komento orjalla Saltin master-slave yhteyttä käyttäen
+Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
+
+## d)
 
 
 ### Lähteet

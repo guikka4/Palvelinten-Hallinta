@@ -35,7 +35,16 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 ![Add file: Upload](kuvat/vagrant-up.png)
 
+- Testasin molempien virtuaalikoneiden yhteydet pingaamalla toisensa sekä internettiin
+- `vagrant ssh t001` ja `vagrant ssh t002` ssh yhteydet ylös
+- `ping -c 1 192.168.88.102` ja `ping -c 1 192.168.88.101` pingaa toisensa (-c 1 taitaa lopettaa pingaamisen yhden vastauksen jälkeen?)
+- `ping -c 1 iltalehti.fi` pingaa vielä internetissä olevalle sivustolle.
+- Kaikista tuli vastaus
+- `exit` komennolla pääsee SSH:sta pois
 
+![Add file: Upload]
+
+![Add file: Upload] 
 
 
 ### Lähteet

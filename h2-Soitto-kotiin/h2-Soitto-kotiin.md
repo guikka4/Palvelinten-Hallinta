@@ -101,11 +101,13 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 - `sudo salt '*' state.single file.managed /tmp/testitiedosto contents="tuleeko testiteksti"` kokeillaan pari kertaa tätä komentoa. Luo `/tmp/` kansioon testitiedosto -nimisen tiedoston, jossa on teksti "tuleeko testiteksti". Uudelleen sama komento näyttää, että tiedosto on jo oikeassa tilassa. Toimii
 
-![Add file: Upload]
+![Add file: Upload](kuvat/testiteksti.png)
 
 - vaarmuuden vuoksi kävin minion koneella tsekkaamassa, että se toimi. Ja toimihan se
 
-![Add file: Upload]
+![Add file: Upload](kuvat/testiteksti-toimi.png)
+
+
 
 
 ### Lähteet

@@ -119,7 +119,7 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 ![Add file: Upload](kuvat/grains.png)
 
-## f) Hello, IaC. Infraa koodina 8.4.2024 12:40-
+## f) Hello, IaC. Infraa koodina 8.4.2024 12:40-13:00
 - Ohjeet soveltuvin osin https://terokarvinen.com/2024/hello-salt-infra-as-code/
 - `sudo mkdir -p /srv/salt/hello/` loin ensin tämän hakemiston. Tästä hakemistosta ajetaan Saltin tilat minioneille.
 - `sudoedit init.sls` juuri luodussa hakemistossa. Sinne pätkä Salt-koodia
@@ -128,11 +128,13 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 - `sudo salt '*' state.apply hello` komennolla ajetaan käsky minioneille
 
-![Add file: Upload](kuvat/hello-apply.png)
+![Add file: Upload](kuvat/state-apply.png)
 
 - Käyn vielä tsekkaamassa minion koneelta, että tosiaan toimi
 
 ![Add file: Upload](kuvat/hello-loytyi.png)
+
+- Millähän komennolla saisi nyt lisättyä tuonne tiedostoon tekstiä ?
 
 
 

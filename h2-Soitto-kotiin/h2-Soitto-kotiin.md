@@ -27,7 +27,8 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - Moduulit voivat sisältää erilaista saltin omaa koodia, riippuen, mitä halutaa ajettavaksi kaikille orjille
 - (Karvinen, T. 2024)
 
-## a) Kahden virtuaalikoneen asentaminen samaan verkkoon (Vagrantilla) 8.4.2024 9:35-
+## a) Kahden virtuaalikoneen asentaminen samaan verkkoon (Vagrantilla) 8.4.2024 9:35-10:15
+- Ohjeet https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/
 - Käytän tehtävän tekemiseen Windowsin (HostOS) powershelliä. Loin ensin oman käyttäjäni kotihakemistoon uuden "twohost" kansion komennolla `mkdir twohost`
 - twohost kansiossa `vagrant init debian/bullseye64` -> luo vagrant-tiedoston kansioon
 - kopion graafisessa käyttöliittymässä ohjeen tekstin (https://terokarvinen.com/2021/two-machine-virtual-network-with-debian-11-bullseye-and-vagrant/) Vagrantfileen
@@ -46,6 +47,9 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 ![Add file: Upload](kuvat/t002.png)
 
+## b) Herra-orja arkkitehtuuri verkon yli 8.4.2024 10:15-
+- Ohjeet https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux
+- 
 
 ### Lähteet
 - Karvinen, T. 2018. Salt Quickstart – Salt Stack Master and Slave on Ubuntu Linux. https://terokarvinen.com/2018/salt-quickstart-salt-stack-master-and-slave-on-ubuntu-linux/?fromSearch=salt%20quickstart%20salt%20stack%20master%20and%20slave%20on%20ubuntu%20linux. Luettavissa 8.4.2024

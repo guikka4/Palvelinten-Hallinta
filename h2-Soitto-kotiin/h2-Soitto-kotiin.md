@@ -124,15 +124,15 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 - `sudo mkdir -p /srv/salt/hello/` loin ensin tämän hakemiston. Tästä hakemistosta ajetaan Saltin tilat minioneille.
 - `sudoedit init.sls` juuri luodussa hakemistossa. Sinne pätkä Salt-koodia
 
-![Add file: Upload]
+![Add file: Upload](kuvat/hello-init.png)
 
 - `sudo salt '*' state.apply hello` komennolla ajetaan käsky minioneille
 
-![Add file: Upload]
+![Add file: Upload](kuvat/hello-apply.png)
 
 - Käyn vielä tsekkaamassa minion koneelta, että tosiaan toimi
 
-![Add file: Upload]
+![Add file: Upload](kuvat/hello-loytyi.png)
 
 
 

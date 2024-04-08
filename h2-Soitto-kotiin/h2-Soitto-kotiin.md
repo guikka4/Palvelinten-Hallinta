@@ -110,9 +110,9 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 - `sudo salt '*' state.single file.absent /tmp/testitiedosto` tiedoston poistaminen, jos sitä ei ole vielä poistettu (master-koneella)
 - alemmassa kuvassa näkyy minionilta, että tiedosto on poissa
 
-![Add file: Upload]
+![Add file: Upload](kuvat/testipoisto.png)
 
-![Add file: Upload]
+![Add file: Upload](kuvat/testipoisto2.png)
 
 
 ### Lähteet

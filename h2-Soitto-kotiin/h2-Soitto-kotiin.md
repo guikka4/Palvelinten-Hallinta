@@ -67,7 +67,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 
 - Tässä kohdassa tulee ensimmäiset ongelmat. Master-koneen `sudo salt-key -A` ei löydä avaimia hyväksyttäväksi. Kikkailin aikani ja ihmettelin, mistä johtuu. Muutos olikin sitten aika simppeli.
 
-![Add file: Update]
+![Add file: Update](kuvat/key-error.png)
 
 - `hostname -I` antoin molemmissa virtuaalikoneissa, tietenkin, saman osoitteen eli aiemmin mainitun 10.0.2.15. Eihän kai minionia voi laittaa osoittamaan itseensä.
 - Takaisin minion koneen kimppuun
@@ -78,7 +78,7 @@ Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siir
 - Master-koneen kimppuun
 - `sudo salt-key -A` ja Ta-daa! Nyt on hyväksymättömiä avaimia.
 
-![Add file: Update]
+![Add file: Update](kuvat/key-accepted.png)
 
 
 ### Lähteet

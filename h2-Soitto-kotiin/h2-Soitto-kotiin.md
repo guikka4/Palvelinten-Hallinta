@@ -6,7 +6,7 @@ Toinen viikkotehtävä alkaa kotosalla 8.4.2024 noin 8:30. Työskentely tapahtuu
 - Muisti: 16 Gt
 - Näytönohjain 6144Mt omalla muistilla
 
-Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siirrytään itse tekemiseen. Ensimmäinen tehtävä on asentaa kaksi virtuaalikonetta samaan verkkoon. Toinen tehtävä on asentaa Saltin herra-orja arkkitehtuuri toimimaan verkon yli. Kolmannessa ajetaan shell-komento orjalla. Neljännessä ajetaan idempotenttikomentoja master-slave yhteyden yli. Sitten keräillään tietoja orjista verkon yli. Viimeisenä kokeillaan vielä infraa koodina. (Karvinen, T. 2024)
+Viikkotehtävä sisältyy tiivistelmät kolmesta artikkelista. Sen jälkeen siirrytään itse tekemiseen. Ensimmäinen tehtävä on asentaa kaksi virtuaalikonetta samaan verkkoon. Toinen tehtävä on asentaa Saltin herra-orja arkkitehtuuri toimimaan verkon yli. Kolmannessa ajetaan shell-komento orjalla. Neljännessä ajetaan idempotenttikomentoja master-slave yhteyden yli. Sitten keräillään tietoja orjista verkon yli. Viimeisenä kokeillaan vielä infraa koodina. (Karvinen, T. 2024. Tehtävänanto https://terokarvinen.com/2024/configuration-management-2024-spring/#h2-soitto-kotiin)
 
 ## x) Tiviistelmät
 ### Two Machine Virtual Network With Debian 11 Bullseye and Vagrant

@@ -105,9 +105,9 @@ Nyt en ole ihan varma, mutta tulikohan tämä b tehtävän viimeisessä tehtyä?
 
 - vaarmuuden vuoksi kävin minion koneella tsekkaamassa, että se toimi. Ja toimihan se
 
-![Add file: Upload]
+![Add file: Upload](kuvat/testiteksti-toimi.png)
 
-
+-
 
 
 ### Lähteet

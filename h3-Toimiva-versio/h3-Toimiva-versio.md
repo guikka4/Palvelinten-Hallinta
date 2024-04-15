@@ -99,7 +99,7 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 
 Kaikki hyvin!
 
-## d) Tukki. Tarkastele ja selitä varaston lokeja 15.4.2024 23:05-
+## d) Tukki. Tarkastele ja selitä varaston lokeja 15.4.2024 23:05-23:25
 - `git log --patch` tarkastellaan lokeja. Tahdon pelkästään vaihtaa nimeni, tai e-mailini mikäli niissä on vikaa.
 - kokeilin vaikka ja mitä, tämä jäi viimmoseksi. Vaikka mitä tein, en saanut lokista muutettua E-mailia. Nimi oli jo oikein ???? wtf.
 

@@ -1,6 +1,8 @@
 # Toimiva versio
 Kolmas viikkotehtävä, raportin teko alkaa 15.4.2024 klo 16:00. Työskentely tapahtuu omalla kannettavalla tietokoneella, joka on kevyeen pelikäyttöön tarkoitettu, ja opiskeluun täysin riittävä. Nettiyhteys on taloyhtiöethernet varustettuna tarpeeksi suurella lisänopeudella. Raportti sekä tehtävät tulee tehtyä osissa, ja tehtävien tekoajat ovat merkittynä väliotsikoihin.
 
+Viikkotehtävään sisältyy jälleen tiivistelmäosio erinäisistä artikkeleista, jonka jälkeen päästään suorittamaan tehtäviä. A tehtävässä luodaan uusi varasto haluamaamme palveluun (itse käytän githubia). B tehtävässä kloonataan kyseinen varasto itselle, tehdään muutoksia ja lähetetään takaisin. C tehtävässä tehdään jotain todella typerää, tarkoituksellisesti, ja tuhotaan muutokset ennen uploadausta. D tehdävässä tutkitaan lokitietoja. E tehtävässä ajetaan salt-tiloja varastosta. F ja G tehtävät ovat vapaaehtoisia, ja niissä voidaan kokeilla aiempien tehtävien tekemistä toisella käyttöjärjestelmällä, sekä antaa oman varaston kirjoitusoikeudet muillekin! (Karvinen, T. 2024. tehtävänanto)
+
 ### HostOS
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
 - Käyttöjärjestelmä: Windows 11 Home
@@ -32,10 +34,13 @@ Kolmas viikkotehtävä, raportin teko alkaa 15.4.2024 klo 16:00. Työskentely ta
 ### Varaston terokarvinen/suolax/ historia
 - Kauheasti Commiteja
 - Uusia versioita useampi, joissa on kerrottu kommentilla, mitä on tehty
-- (Karvinen, T. 2024) 
+- (Karvinen, T. Saltx. 2024)
+
+## a) Online
 
 ## Lähteet
 - Chacon & Straub. 2014. What is Git? https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettavissa 15.4.2024
-- Karvinen, T. 2024. https://github.com/terokarvinen/suolax/commits/main/. Luettavissa 15.4.2024
+- Karvinen, T. 2024. Saltx. https://github.com/terokarvinen/suolax/commits/main/. Luettavissa 15.4.2024
+- Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h3-toimiva-versio. Luettavissa 15.4.2024
 - Kholiya, P. 2018. https://medium.com/@itsmepankaj/git-workflow-add-commit-push-pull-69adf44cf812. Luettavissa 15.4.2024
 

@@ -23,10 +23,13 @@ Kolmas viikkotehtävä, raportin teko alkaa 15.4.2024 klo 16:00. Työskentely ta
 - (Chacon and Straub. 2014)
 
 ### Git:n käyttö - `git add . && git commit; git pull && git push`
-
-
+- `git add` tällä komennolla annetaan impulssi, että nyt on menossa "vaiheistus", stage. Tämä on välttämätöntä tehdä, jotta Git ymmärtää muutosten olevan tulossa
+- `git commit` tällä komennolla tallennetaan muutokset
+- `git push` tällä komennolla lähetetään paikallisesti tallennettu tiedosto eteenpäin. Siis käytännössä "upload"
+- `git pull` tällä komennolla haetaan viimeisin kansio, projekti, "repo", paikalliseksi tiedostoksi
+- (Kholiya, P. 2018)
 
 ## Lähteet
-- Chacon & Straub. 2014. What is Git? https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
-- 
+- Chacon & Straub. 2014. What is Git? https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettavissa 15.4.2024
+- Kholiya, P. 2018. https://medium.com/@itsmepankaj/git-workflow-add-commit-push-pull-69adf44cf812. Luettavissa 15.4.2024
 

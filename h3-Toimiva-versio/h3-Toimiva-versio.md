@@ -74,6 +74,18 @@ Mennään uudelleen Githubiib, ja tehdään uudelleen samat toimenpiteet.
 
 ![Add file: Upload](kuvat/clone2.png)
 
+Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki tähän kloonirepoon, ja uploadata se. Lopputuotos on kaksi kuvakaappausta, ennen ja jälkeen.
+
+![Add file: Upload]
+
+![Add file: Upload]
+
+![Add file: Upload]
+
+![Add file: Upload]
+
+
+
 
 
 

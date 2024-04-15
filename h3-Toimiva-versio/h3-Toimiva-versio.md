@@ -36,11 +36,14 @@ Viikkotehtävään sisältyy jälleen tiivistelmäosio erinäisistä artikkeleis
 - Uusia versioita useampi, joissa on kerrottu kommentilla, mitä on tehty
 - (Karvinen, T. Saltx. 2024)
 
-## a) Online 15.4.2024 21:45-
+## a) Online 15.4.2024 21:45-21:50
 Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yläkulmassa olevaa plus-nappia, ja klikkaan "new repository". Tämän jälkeen keksin repolle nimen, kuvauksen sekä asetan sen julkiseksi.
 
-![Add file: Upload]
-![Add file: Upload]
+![Add file: Upload](newrepo.png)
+![Add file: Upload](repovalinnat.png)
+
+## b) Dolly 15.4.2024 21:55-
+-
 
 
 

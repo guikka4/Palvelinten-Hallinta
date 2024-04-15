@@ -36,14 +36,14 @@ Viikkotehtävään sisältyy jälleen tiivistelmäosio erinäisistä artikkeleis
 - Uusia versioita useampi, joissa on kerrottu kommentilla, mitä on tehty
 - (Karvinen, T. Saltx. 2024)
 
-## a) Online 15.4.2024 21:45-21:50
+## a) Online - Uusi varasto Githubiin 15.4.2024 21:45-21:50
 Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yläkulmassa olevaa plus-nappia, ja klikkaan "new repository". Tämän jälkeen keksin repolle nimen, kuvauksen sekä asetan sen julkiseksi.
 
 ![Add file: Upload](kuvat/newrepo.png)
 
 ![Add file: Upload](kuvat/repovalinnat.png)
 
-## b) Dolly 15.4.2024 21:55-22:42 . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
+## b) Dolly - Kloonaa, ja tee muutoksia. 15.4.2024 21:55-22:42 . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
 - Aloitetaan menemällä Githubiin ja haetaan SSH koodi (SSH avain on lisätty aiemmin Githubiin)
 
 ![Add file: Upload](kuvat/sshcode.png)
@@ -85,6 +85,13 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 ![Add file: Upload](kuvat/before.png)
 
 ![Add file: Upload](kuvat/after.png)
+
+## c) Doh! Kokkeillaans tyhmää muutosta. 15.4.2024 22:45-
+- `micro onlyteztingz.md` Aloitin luomalla uuden .md tiedoston
+- `git add .`
+- `git reset --hard`
+
+Kaikki hyvin!
 
 
 

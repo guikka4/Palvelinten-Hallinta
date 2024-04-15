@@ -56,9 +56,13 @@ Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yl�
 - Laitetaan nettiin tieto, että tämä on testi vaan
 - `micro README.md` - kirjoitellaan tämä testitieto sinne
 
+![Add file: Upload](kuvat/practice2.png)
 
 - `git add .` `git commit` jälkeen "kommentti, mitä on tehty" `git pull` `git push`
-- 
+
+![Add file: Upload](kuvat/1stpractice.png)
+
+
 
 
 

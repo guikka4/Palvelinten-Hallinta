@@ -86,7 +86,7 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 
 ![Add file: Upload](kuvat/after.png)
 
-## c) Doh! Kokkeillaans tyhmää muutosta. 15.4.2024 22:45-
+## c) Doh! Kokkeillaans tyhmää muutosta. 15.4.2024 22:45-22:57
 - `micro onlyteztingz.md` Aloitin luomalla uuden .md tiedoston
 
 ![Add file: Upload](kuvat/micro-doh.png)![Add file: Upload](kuvat/doh2.png)

@@ -88,8 +88,14 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 
 ## c) Doh! Kokkeillaans tyhmää muutosta. 15.4.2024 22:45-
 - `micro onlyteztingz.md` Aloitin luomalla uuden .md tiedoston
+
+![Add file: Upload](kuvat/micro-doh.png)![Add file: Upload](kuvat/doh2.png)
+
 - `git add .`
+
 - `git reset --hard`
+
+![Add file: Upload](kuvat/hard1.png)
 
 Kaikki hyvin!
 

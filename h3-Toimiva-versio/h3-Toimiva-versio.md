@@ -8,4 +8,11 @@ Kolmas viikkotehtävä, raportin teko alkaa 15.4.2024 klo 16:00. Työskentely ta
 - Muisti: 16 Gt
 - Näytönohjain 6144Mt omalla muistilla
 
+### GuestOS
+- Debian Bookworm, 64-bit
+- 4 prosessoriydintä
+- 7981 Mt RAM
+
+## x) Tiivistelmät
+### 
 

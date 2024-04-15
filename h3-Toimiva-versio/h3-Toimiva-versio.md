@@ -62,6 +62,8 @@ Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yl�
 
 ![Add file: Upload](kuvat/1stpractice.png)
 
+![Add file: Upload]
+
 
 
 

@@ -101,9 +101,9 @@ Kaikki hyvin!
 
 ## d) Tukki. Tarkastele ja selitä varaston lokeja 15.4.2024 23:05-
 - `git log --patch` tarkastellaan lokeja. Tahdon pelkästään vaihtaa nimeni, tai e-mailini mikäli niissä on vikaa.
-- kokeilin vaikka ja mitä, tämä jäi viimmoseksi
+- kokeilin vaikka ja mitä, tämä jäi viimmoseksi. Vaikka mitä tein, en saanut lokista muutettua E-mailia. Nimi oli jo oikein ???? wtf.
 
-![Add file: Upload]
+![Add file: Upload](kuvat/author1.png)
 
 
 

@@ -40,10 +40,17 @@ Viikkotehtävään sisältyy jälleen tiivistelmäosio erinäisistä artikkeleis
 Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yläkulmassa olevaa plus-nappia, ja klikkaan "new repository". Tämän jälkeen keksin repolle nimen, kuvauksen sekä asetan sen julkiseksi.
 
 ![Add file: Upload](kuvat/newrepo.png)
+
 ![Add file: Upload](kuvat/repovalinnat.png)
 
-## b) Dolly 15.4.2024 21:55-
--
+## b) Dolly 15.4.2024 21:55- . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
+- Aloitetaan menemällä Githubiin ja haetaan SSH koodi (SSH avain on lisätty aiemmin Githubiin)
+
+![Add file: Upload]
+
+- `git clone git@github.com:guikka4/Gitpractice2.git` -> komentoriville
+
+![Add file: Upload]
 
 
 

@@ -29,7 +29,13 @@ Kolmas viikkotehtävä, raportin teko alkaa 15.4.2024 klo 16:00. Työskentely ta
 - `git pull` tällä komennolla haetaan viimeisin kansio, projekti, "repo", paikalliseksi tiedostoksi
 - (Kholiya, P. 2018)
 
+### Varaston terokarvinen/suolax/ historia
+- Kauheasti Commiteja
+- Uusia versioita useampi, joissa on kerrottu kommentilla, mitä on tehty
+-(Karvinen, T. 2024) 
+
 ## Lähteet
 - Chacon & Straub. 2014. What is Git? https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettavissa 15.4.2024
+- Karvinen, T. 2024. https://github.com/terokarvinen/suolax/commits/main/. Luettavissa 15.4.2024
 - Kholiya, P. 2018. https://medium.com/@itsmepankaj/git-workflow-add-commit-push-pull-69adf44cf812. Luettavissa 15.4.2024
 

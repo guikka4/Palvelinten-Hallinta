@@ -62,7 +62,11 @@ Suoritan teht채v채n Githubia k채ytt채en. Klikkaan oman dashboardini oikeassa yl�
 
 ![Add file: Upload](kuvat/1stpractice.png)
 
-![Add file: Upload]
+![Add file: Upload](kuvat/gitall1.png)
+
+Menn채채n uudelleen Githubiib, ja tehd채채n uudelleen samat toimenpiteet.
+
+
 
 
 

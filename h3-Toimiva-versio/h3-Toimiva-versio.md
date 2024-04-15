@@ -46,11 +46,13 @@ Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yl�
 ## b) Dolly 15.4.2024 21:55- . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
 - Aloitetaan menemällä Githubiin ja haetaan SSH koodi (SSH avain on lisätty aiemmin Githubiin)
 
-![Add file: Upload]
+![Add file: Upload](kuvat/sshcode.png)
 
 - `git clone git@github.com:guikka4/Gitpractice2.git` -> komentoriville
 
-![Add file: Upload]
+![Add file: Upload](kuvat/clone.png)
+
+- 
 
 
 

@@ -82,7 +82,7 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 
 ![Add file: Upload](kuvat/before.png)
 
-![Add file: Upload](kuvat(after.png)
+![Add file: Upload](kuvat/after.png)
 
 
 

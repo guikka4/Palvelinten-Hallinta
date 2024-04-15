@@ -36,7 +36,14 @@ Viikkotehtävään sisältyy jälleen tiivistelmäosio erinäisistä artikkeleis
 - Uusia versioita useampi, joissa on kerrottu kommentilla, mitä on tehty
 - (Karvinen, T. Saltx. 2024)
 
-## a) Online
+## a) Online 15.4.2024 21:45-
+Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yläkulmassa olevaa plus-nappia, ja klikkaan "new repository". Tämän jälkeen keksin repolle nimen, kuvauksen sekä asetan sen julkiseksi.
+
+![Add file: Upload]
+![Add file: Upload]
+
+
+
 
 ## Lähteet
 - Chacon & Straub. 2014. What is Git? https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F. Luettavissa 15.4.2024

@@ -66,13 +66,15 @@ Suoritan teht채v채n Githubia k채ytt채en. Klikkaan oman dashboardini oikeassa yl�
 
 Menn채채n uudelleen Githubiib, ja tehd채채n uudelleen samat toimenpiteet.
 
-![Add file: Upload]
+![Add file: Upload](kuvat/repo2.png)
 
-![Add file: Upload]
+![Add file: Upload](kuvat/ss2code2.png)
 
      git clone git@github.com:guikka4/gitsummerx.git
 
-![Add file: Upload]
+![Add file: Upload](kuvat/clone2.png)
+
+
 
 
 

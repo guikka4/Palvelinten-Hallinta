@@ -74,11 +74,13 @@ Mennään uudelleen Githubiib, ja tehdään uudelleen samat toimenpiteet.
 
 ![Add file: Upload](kuvat/clone2.png)
 
-Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki tähän kloonirepoon, ja uploadata se. Lopputuotos on kaksi kuvakaappausta, ennen ja jälkeen. Ennen lopputuotosta on komennot kaappauksina.
+Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki tähän kloonirepoon, ja uploadata se.
 
 ![Add file: Upload](kuvat/line3.png)
 
 ![Add file: Upload](kuvat/gitall2.png)
+
+ Lopputuotos on kaksi kuvakaappausta, ennen ja jälkeen. Ennen lopputuotosta oli komennot kaappauksina.
 
 ![Add file: Upload](kuvat/before.png)
 

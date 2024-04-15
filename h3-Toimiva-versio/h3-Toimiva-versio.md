@@ -99,7 +99,7 @@ Noniin, nyt kun tässä vaiheessa ollaan kuosissa, on aika jättää jälki täh
 
 Kaikki hyvin!
 
-
+## d) Tukki. Tarkastele ja selitä varaston lokeja
 
 
 

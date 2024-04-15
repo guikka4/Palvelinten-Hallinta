@@ -52,6 +52,12 @@ Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yl�
 
 ![Add file: Upload](kuvat/clone.png)
 
+- Tässä kohtaa huomaan, että tehtävänanto käskee antamaan sanan "summer" sekä varaston nimeen että kuvaukseen. Ja ei kun alusta. (https://terokarvinen.com/2024/configuration-management-2024-spring/#h3-toimiva-versio)
+- Laitetaan nettiin tieto, että tämä on testi vaan
+- `micro README.md` - kirjoitellaan tämä testitieto sinne
+
+
+- `git add .` `git commit` jälkeen "kommentti, mitä on tehty" `git pull` `git push`
 - 
 
 

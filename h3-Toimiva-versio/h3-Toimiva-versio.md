@@ -43,7 +43,7 @@ Suoritan tehtävän Githubia käyttäen. Klikkaan oman dashboardini oikeassa yl�
 
 ![Add file: Upload](kuvat/repovalinnat.png)
 
-## b) Dolly 15.4.2024 21:55- . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
+## b) Dolly 15.4.2024 21:55-22:42 . Tässä tehtävässä käytän GuestOS konetta VirtualBoxin kautta.
 - Aloitetaan menemällä Githubiin ja haetaan SSH koodi (SSH avain on lisätty aiemmin Githubiin)
 
 ![Add file: Upload](kuvat/sshcode.png)

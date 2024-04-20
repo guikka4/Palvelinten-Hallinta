@@ -40,10 +40,10 @@ Neljäs viikkotehtävä, raportin teko alkaa 20.4.2024 klo 12:00. Työskentely t
 - YAML:ia kirjoitetaan `arvo: asetus` pareina
 - YAML on merkkiriippuvainen, esimerkiksi sisennykset tehdään käyttämällä välilyöntejä (2 kpl), ei tabulaattoria. Myös isot/pienet kirjaimet ja erikoismerkit
 - arvo: asetus pareja voisivat olla esimerkiksi `Eläin: Kissa`
-- pareja voi olla useampia samalla kertaa. Esimerkiksi:
-  - `- Eläin: `
-  - `- Kissa`
-  - `- Koira`
+- pareja voi olla useampia samalla kertaa. Eli eläimen alla luettelona "Kissa, koira, kani" jne.
+- Tämän kaltainen luettelo, tai listaus, merkitään rivikohtaisesti väliviivalla sekä välilyönnillä "- "
+
+### 
 
 ### Lähteet
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h4-demoni. Luettavissa 20.4.2024

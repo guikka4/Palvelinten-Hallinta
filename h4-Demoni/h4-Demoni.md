@@ -30,5 +30,22 @@ Neljäs viikkotehtävä, raportin teko alkaa 20.4.2024 klo 12:00. Työskentely t
 - 4 prosessoriydintä
 - 7981 Mt RAM
 
+## x) Tiivistelmät
+### Salt Vagrant - automatic provision one master and two slaves (Karvinen, T. 2023)
+- Suoritettavat tiedostot `/srv/salt/projekti/init.sls`
+- YAML on ohjelmointikieli, jota yleensä käytetään konfiguraatiotiedostojen kirjoittamiseen (Redhat.com, 2023)
+- `top.sls` tiedostolla määritellään, mille minionille/slavelle mikäkin tila ajetaan
+
+### Salt overwiev (Salt project)
+- YAML:ia kirjoitetaan `arvo: asetus` pareina
+- YAML on merkkiriippuvainen, esimerkiksi sisennykset tehdään käyttämällä välilyöntejä (2 kpl), ei tabulaattoria. Myös isot/pienet kirjaimet ja erikoismerkit
+- arvo: asetus pareja voisivat olla esimerkiksi `Eläin: Kissa`
+- pareja voi olla useampia samalla kertaa. Esimerkiksi:
+  - `- Eläin: `
+  - `- Kissa`
+  - `- Koira`
+
 ### Lähteet
-- Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h4-demoni
+- Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h4-demoni. Luettavissa 20.4.2024
+- Redhat. 2023. What is YAML? https://www.redhat.com/en/topics/automation/what-is-yaml. Luettavissa 20.4.2024
+- Saltproject. https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml. 20.4.2024

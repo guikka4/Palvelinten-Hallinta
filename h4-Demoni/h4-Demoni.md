@@ -41,11 +41,14 @@ Neljäs viikkotehtävä, raportin teko alkaa 20.4.2024 klo 12:00. Työskentely t
 - YAML on merkkiriippuvainen, esimerkiksi sisennykset tehdään käyttämällä välilyöntejä (2 kpl), ei tabulaattoria. Myös isot/pienet kirjaimet ja erikoismerkit
 - arvo: asetus pareja voisivat olla esimerkiksi `Eläin: Kissa`
 - pareja voi olla useampia samalla kertaa. Eli eläimen alla luettelona "Kissa, koira, kani" jne.
-- Tämän kaltainen luettelo, tai listaus, merkitään rivikohtaisesti väliviivalla sekä välilyönnillä "- "
+- Tämän kaltainen luettelo, tai listaus, merkitään rivikohtaisesti väliviivalla sekä välilyönnillä "- " jonka jälkeen tulee sitten arvo, esim kissa.
+  - sisennykset ovat kaikki kaikessa. Ei tabulaattoria! Yksikin sisennys riittää, mutta standardi on kaksi
 
-### 
+### Pkg-File-Service – Control Daemons with Salt – Change SSH Server Port (Karvinen, T. 2018)
+- 
 
 ### Lähteet
+- Karvinen, T. 2018. Pkg-File-Service - Control Daemons with Salt – Change SSH Server Port. https://terokarvinen.com/2018/04/03/pkg-file-service-control-daemons-with-salt-change-ssh-server-port/?fromSearch=karvinen%20salt%20ssh. Luettavissa 20.4.2024
 - Karvinen, T. 2024. Tehtävänanto. https://terokarvinen.com/2024/configuration-management-2024-spring/#h4-demoni. Luettavissa 20.4.2024
 - Redhat. 2023. What is YAML? https://www.redhat.com/en/topics/automation/what-is-yaml. Luettavissa 20.4.2024
 - Saltproject. https://docs.saltproject.io/salt/user-guide/en/latest/topics/overview.html#rules-of-yaml. 20.4.2024

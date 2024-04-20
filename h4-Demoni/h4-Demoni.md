@@ -7,13 +7,13 @@ Neljäs viikkotehtävä, raportin teko alkaa 20.4.2024 klo 12:00. Työskentely t
 - b) Top. Tee top.sls niin, että useita valitsemiasi tiloja ajetaan automaattisesti, esim komennolla "sudo salt '*' state.apply" tai "sudo salt-call --local state.apply"
 - c) Apache easy mode. Asenna Apache, korvaa sen testisivu ja varmista, että demoni käynnistyy.
 - Ensin käsin, vasta sitten automaattisesti.
-- Kirjoita tila sls-tiedostoon.
-- pkg-file-service
-- Tässä ei tarvita service:ssä watch, koska index.html ei ole asetustiedosto
+  - Kirjoita tila sls-tiedostoon.
+  - pkg-file-service
+  - Tässä ei tarvita service:ssä watch, koska index.html ei ole asetustiedosto
 - d) SSHouto. Lisää uusi portti, jossa SSHd kuuntelee.
-- Jos käytät Vagrantia, muista jättää portti 22/tcp auki - se on oma yhteytesi koneeseen. SSHd:n asetustiedostoon voi tehdä yksinkertaisesti kaksi "Port" riviä, molemmat portit avataan.
-- Löydät oikean asetuksen katsomalla SSH:n asetustiedostoa
-- Nyt tarvitaan service-watch, jotta demoni käynnistetään uudelleen, jos asetustiedosto muuttuu masterilla
+  - Jos käytät Vagrantia, muista jättää portti 22/tcp auki - se on oma yhteytesi koneeseen. SSHd:n asetustiedostoon voi tehdä yksinkertaisesti kaksi "Port" riviä, molemmat portit avataan.
+  - Löydät oikean asetuksen katsomalla SSH:n asetustiedostoa
+  - Nyt tarvitaan service-watch, jotta demoni käynnistetään uudelleen, jos asetustiedosto muuttuu masterilla
 
 ### HostOS
 - Asus Tuf Gaming A15 FA506QM kannettava tietokone
